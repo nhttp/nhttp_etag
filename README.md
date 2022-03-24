@@ -6,7 +6,7 @@ Etager for nhttp.
 
 ```ts
 import { NHttp } from "https://deno.land/x/nhttp@1.1.11/mod.ts";
-import { etag } from "https://deno.land/x/nhttp_etag@0.0.4/mod.ts";
+import { etag } from "https://deno.land/x/nhttp_etag@0.0.5/mod.ts";
 
 const app = new NHttp();
 
