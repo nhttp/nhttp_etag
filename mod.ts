@@ -13,6 +13,7 @@ export async function entityTag(entity: string | Uint8Array | undefined) {
   return `"${entity.length.toString(16)}-${hash}"`;
 }
 
+
 export const etag = <T extends RequestEvent = RequestEvent>(
   opts: { weak?: boolean } = {},
 ): Handler<T> =>
